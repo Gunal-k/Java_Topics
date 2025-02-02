@@ -6,7 +6,9 @@ class Inout {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         
         int n; // Variable to store the integer input
-
+        
+        System.out.print("Enter a Number: ");
+        
         // Read a line of text from the console
         // Convert the string input to an integer
         n = Integer.parseInt(br.readLine());

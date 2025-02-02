@@ -7,6 +7,8 @@ public class Inti {
         
         int n; // Variable to store the integer input
 
+        System.out.print("Enter a Number: ");
+        
         // Read an integer from the console
         n = sc.nextInt();
         
